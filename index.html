@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name=viewport content="width=800">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Amy Wang</title>
 
     <style>
@@ -28,35 +28,48 @@
         font-weight: 100;
       }
 
-      heading {
+      body {
+        margin: 0;
+      }
+
+      .heading {
         font-size: 26px;
       }
 
-      subheading {
+      .subheading {
         font-size:  22px;
       }
 
-      papertitle {
+      .paper-title {
         font-weight: 900;
         font-size:  18px;
       }
 
-      authors {
+      .authors {
         font-weight: 200;
       }
 
-      me {
+      .me {
         font-weight:  400;
         font-size: 17px;
-         text-decoration: underline;
+        text-decoration: underline;
       }
 
-      name {
+      .name {
         font-size: 32px;
       }
 
-      underline {
+      .underline {
         text-decoration: underline;
+      }
+
+      .footer-note {
+        font-size: 13px;
+      }
+
+      .meta-note {
+        font-size: 14px;
+        color: #666666;
       }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -74,55 +87,51 @@
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Amy Wang</name>
-                <p>I’m a computational researcher specializing in sequence-based protein modeling and representation learning, with a decade of hands-on wet-lab experience. My work focuses on dataset design and predictive modeling for affinity and developability, integrating domain knowledge from physics-based approaches.</p>
+	          <tr style="padding:0px">
+	            <td style="padding:2.5%;width:63%;vertical-align:middle">
+	              <p style="text-align:center">
+	                <span class="name">Amy Wang</span>
+	              </p>
+	                <p>I’m a machine learning scientist working on generative models, LLM evaluation, and agentic systems for protein and antibody design. My work focuses on sequence-based modeling, affinity and developability prediction, and building discovery workflows that integrate biophysical constraints with experimental data.</p>
 
-                <p>As a Senior ML Scientist at <a href="https://www.gene.com/scientists/our-scientists/prescient-design">Prescient Design (Genentech)</a>, I lead research directions that deliver frameworks deployed across 10+ drug discovery programs, working in close partnership with experimental teams.</p>
+	                <p>As a Senior ML Scientist at <a href="https://www.gene.com/scientists/our-scientists/prescient-design">Prescient Design (Genentech)</a>, I’ve developed ML methods in close partnership with experimental teams. My work has been adopted across the antibody portfolio, spanning discovery, developability optimization, and model evaluation.</p>
 
-                <p>I earned my PhD in 2023 at Stanford, studying force-sensitive cell adhesion proteins with <a href="https://dunngroup.stanford.edu">Alex Dunn</a> and <a href="http://med.stanford.edu/weis.html">Bill Weis</a>. I collaborated on GNN models for protein prediction with <a href="https://www.microsoft.com/en-us/research/theme/biomedical-ml/">Microsoft Research's BioML Team</a> (<a href="https://yangkky.github.io">Kevin Yang</a>, <a href="https://avaamini.com">Ava Amini</a>, <a href="https://www.alexluresearch.com">Alex Lu</a>) and on MD simulation analysis with <a href="https://drorlab.stanford.edu">Ron Dror</a>'s group. As an undergraduate at MIT, I studied protein-polymer systems for drug delivery in the <a href="https://olsenlab.mit.edu">Olsen</a>, <a href="https://langer-lab.mit.edu">Langer</a>, and <a href="https://anderson-lab.mit.edu">Anderson</a> labs.</p>
-              <p style="text-align:center">
-                <a href="data/AmyWang_CV.pdf"> CV</a> |
-                <a href="https://scholar.google.com/citations?user=Lu7sHfoAAAAJ&hl=en">Google Scholar</a> |
-                <a href="http://twitter.com/amywang01">Twitter</a>
-                <br>amywangsci [at] gmail.com
-              </p>
+	                <p>I also have a decade of wet lab experience. I earned my PhD in Chemical Engineering from Stanford University in 2023, where I studied force-dependent cell adhesion proteins. As an undergraduate at MIT, I worked on protein–polymer systems for drug delivery.</p>
+	              <p style="text-align:center">
+	                <a href="data/AmyWang_CV.pdf"> CV</a> |
+	                <a href="https://scholar.google.com/citations?user=Lu7sHfoAAAAJ&amp;hl=en">Google Scholar</a> |
+	                <a href="https://twitter.com/amywang01">Twitter</a>
+	                <br>amywangsci [at] gmail.com
+	              </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
               <a href="data/images/AmyWang.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="data/images/AmyWang.jpg" class="hoverZoomLink"></a>
             </td>
-        </tbody></table>
-      </td>
-    </tr>
-  </tbody></table>
-</body>
-</html>
-
-</tbody></table>
+	        </tbody></table>
+	      </td>
+	    </tr>
+	  </tbody></table>
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr>
-    <td style="padding:20px;width:100%;vertical-align:middle">
-      <heading>Publications</heading>
-    </td>
-  </tr>
-</tbody></table>
+	    <tr>
+	    <td style="padding:20px;width:100%;vertical-align:middle">
+	      <div class="heading">Publications</div>
+	    </td>
+	  </tr>
+	</tbody></table>
 
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:10px;margin-bottom:10px;">
   <tbody>
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-        <img style="width:100%;max-width:200px;" src='data/images/lab_in_the_loop.png'>
+        <img style="width:100%;max-width:200px;" src='data/images/lab_in_the_loop.png' alt="Lab-in-the-loop therapeutic antibody design figure">
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle;">
-        <p>
-          <papertitle> <a href="https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2.full.pdf"> Lab-in-the-loop therapeutic antibody design with deep learning
-          </papertitle> </a> <br>
-          <authors><a href="https://ncfrey.github.io/"> N.C. Frey</a>, I. Hötzel, S.D. Stanton, R. Kelly, R.G. Alberstein, ..., <me>A. Wang</me>, ..., A.Regev, Y. Wu, K. Cho, R. Bonneau, V. Gligorijević </authors>
-          <br> <br>
-          <em> bioRxiv </em> 2025
-        </p>
+	      <td style="padding:20px;width:75%;vertical-align:middle;">
+	        <p>
+	          <span class="paper-title"><a href="https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2.full.pdf">Lab-in-the-loop therapeutic antibody design with deep learning</a></span><br>
+	          <span class="authors"><a href="https://ncfrey.github.io/">N.C. Frey</a>, I. Hötzel, S.D. Stanton, R. Kelly, R.G. Alberstein, ..., <span class="me">A. Wang</span>, ..., A. Regev, Y. Wu, K. Cho, R. Bonneau, V. Gligorijević</span>
+	          <br> <br>
+	          <em>bioRxiv</em> 2025
+	        </p>
       </td>
     </tr>
   </tbody>
@@ -132,17 +141,15 @@
   <tbody>
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-        <img style="width:100%;max-width:200px;" src='data/images/cb-plm.png'>
+        <img style="width:100%;max-width:200px;" src='data/images/cb-plm.png' alt="Concept bottleneck protein design figure">
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle;">
-        <p>
-          <papertitle> <a href="
-            https://openreview.net/pdf?id=Yt9CFhOOFe"> Concept Bottleneck Language Models For Protein Design
-          </papertitle> </a> <br>
-          <authors>A.A. Ismail, T. Oikarinen, <me>A. Wang</me>,  J. Adebayo, S.D. Stanton, H.C. Bravo, K. Cho, N.C. Frey</authors>
-          <br> <br>
-          <em> International Conference on Learning Representations (ICLR) </em> 2025
-        </p>
+	      <td style="padding:20px;width:75%;vertical-align:middle;">
+	        <p>
+	          <span class="paper-title"><a href="https://openreview.net/pdf?id=Yt9CFhOOFe">Concept Bottleneck Language Models For Protein Design</a></span><br>
+	          <span class="authors">A.A. Ismail, T. Oikarinen, <span class="me">A. Wang</span>, J. Adebayo, S.D. Stanton, H.C. Bravo, K. Cho, N.C. Frey</span>
+	          <br> <br>
+	          <em> International Conference on Learning Representations (ICLR) </em> 2025
+	        </p>
       </td>
     </tr>
   </tbody>
@@ -152,16 +159,15 @@
   <tbody>
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-        <img style="width:100%;max-width:200px;" src='data/images/drakes.png'>
+        <img style="width:100%;max-width:200px;" src='data/images/drakes.png' alt="Discrete diffusion protein design figure">
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle;">
-        <p>
-          <papertitle> <a href="
-            https://openreview.net/pdf?id=G328D1xt4W"> Fine-tuning discrete diffusion models via reward optimization with applications to dna and protein design </papertitle> </a> <br>
-          <authors>C. Wang, M. Uehara, Y. He, <me>A. Wang</me>, A. Lal, T. Jaakola, S. Levine, A. Regev, H. Wang, T. Biancalani</authors>
-          <br> <br>
-          <em> International Conference on Learning Representations (ICLR) </em> 2025
-        </p>
+	      <td style="padding:20px;width:75%;vertical-align:middle;">
+	        <p>
+	          <span class="paper-title"><a href="https://openreview.net/pdf?id=G328D1xt4W">Fine-tuning discrete diffusion models via reward optimization with applications to DNA and protein design</a></span><br>
+	          <span class="authors">C. Wang, M. Uehara, Y. He, <span class="me">A. Wang</span>, A. Lal, T. Jaakola, S. Levine, A. Regev, H. Wang, T. Biancalani</span>
+	          <br> <br>
+	          <em> International Conference on Learning Representations (ICLR) </em> 2025
+	        </p>
       </td>
     </tr>
   </tbody>
@@ -172,15 +178,15 @@
   <tbody>
     <tr>
       <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-        <img style="width:100%;max-width:200px;" src='data/images/vh_cartoon.png'>
+        <img style="width:100%;max-width:200px;" src='data/images/vh_cartoon.png' alt="Vinculin and alphaE-catenin figure">
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle;">
-        <p>
-          <papertitle> <a href="https://doi.org/10.1016/j.jmb.2023.167969"> Multi-level force-dependent allosteric enhancement of αE-catenin binding to F-actin by vinculin </papertitle> </a> <br>
-          <authors> N.A. Bax*, <me>A. Wang*</me>, D.L. Huang, S. Pokutta, A.R. Dunn, W.I. Weis </authors>
-          <br> <br>
-          <em>Journal of Molecular Biology</em> 2023 | <a href="data/pdf/multi-level_force-dependent_allosteric_enhancement_of_aE-catenin_binding_to_F-actin_by_vinculin.pdf">PDF</a>
-        </p>
+	      <td style="padding:20px;width:75%;vertical-align:middle;">
+	        <p>
+	          <span class="paper-title"><a href="https://doi.org/10.1016/j.jmb.2023.167969">Multi-level force-dependent allosteric enhancement of αE-catenin binding to F-actin by vinculin</a></span><br>
+	          <span class="authors">N.A. Bax*, <span class="me">A. Wang*</span>, D.L. Huang, S. Pokutta, A.R. Dunn, W.I. Weis</span>
+	          <br> <br>
+	          <em>Journal of Molecular Biology</em> 2023 | <a href="data/pdf/multi-level_force-dependent_allosteric_enhancement_of_aE-catenin_binding_to_F-actin_by_vinculin.pdf">PDF</a>
+	        </p>
       </td>
     </tr>
   </tbody>
@@ -189,71 +195,71 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/catch_bond.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/catch_bond.png' alt="Catch bond interaction figure">
     </td>
     <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://elifesciences.org/articles/80130#content">Mechanism of the cadherin-catenin F-actin catch bond interaction</a></papertitle><br>
-        <authors><me>A. Wang</me>, <a href="https://scholar.google.com/citations?user=VFno0TcAAAAJ&hl=en/">A.R. Dunn</a>, <a href="https://scholar.google.com/citations?user=pbkgvawAAAAJ&hl=en/">W.I. Weis</a></authors>
-        <br><br>
-        <em>eLife</em> 2022 | <a href="data/pdf/mechanism_of_the_cadherin-catenin_F-actin_catch_bond_interaction.pdf">PDF</a>
-      </p>
+	      <p>
+	        <span class="paper-title"><a href="https://elifesciences.org/articles/80130#content">Mechanism of the cadherin-catenin F-actin catch bond interaction</a></span><br>
+	        <span class="authors"><span class="me">A. Wang</span>, <a href="https://scholar.google.com/citations?user=VFno0TcAAAAJ&amp;hl=en/">A.R. Dunn</a>, <a href="https://scholar.google.com/citations?user=pbkgvawAAAAJ&amp;hl=en/">W.I. Weis</a></span>
+	        <br><br>
+	        <em>eLife</em> 2022 | <a href="data/pdf/mechanism_of_the_cadherin-catenin_F-actin_catch_bond_interaction.pdf">PDF</a>
+	      </p>
     </td>
   </tr>
 
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/implant.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/implant.png' alt="Therapeutic cell implant figure">
     </td>
     <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://www.nature.com/articles/s41551-020-0538-5">A retrievable implant for the long-term encapsulation and survival of therapeutic xenogeneic cells</a></papertitle><br>
-        <authors><a href="https://www.mayo.edu/research/faculty/bose-suman-ph-d/bio-20549026">S. Bose</a>, <a href="http://lisarvolpatti.com">L.R. Volpatti*</a>, D. Thiono*, V. Yesilyurt, C. McGladrigan, Y. Tang, A. Facklam, <me>A. Wang</me>, S. Jhunjhunwala, O. Veiseh, J. Hollister-Lock, C. Bhattacharya, G.C. Weir, D.L. Greiner, <a href="https://scholar.google.com/citations?user=5HX--AYAAAAJ&hl=en&oi=ao">R. Langer</a>, <a href="https://scholar.google.com/citations?user=NM1dXVYAAAAJ&hl=en">D.G. Anderson</a></authors>
-        <br><br>
-        <em>Nature Biomedical Engineering</em> 2020 | <a href="data/pdf/a_retrievable_implant_for_the_long-term_encapsulation_and_survival_of_therapeutic_xenogeneic_cells.pdf">PDF</a>
-      </p>
+	      <p>
+	        <span class="paper-title"><a href="https://www.nature.com/articles/s41551-020-0538-5">A retrievable implant for the long-term encapsulation and survival of therapeutic xenogeneic cells</a></span><br>
+	        <span class="authors"><a href="https://www.mayo.edu/research/faculty/bose-suman-ph-d/bio-20549026">S. Bose</a>, <a href="http://lisarvolpatti.com">L.R. Volpatti*</a>, D. Thiono*, V. Yesilyurt, C. McGladrigan, Y. Tang, A. Facklam, <span class="me">A. Wang</span>, S. Jhunjhunwala, O. Veiseh, J. Hollister-Lock, C. Bhattacharya, G.C. Weir, D.L. Greiner, <a href="https://langer-lab.mit.edu">R. Langer</a>, <a href="https://anderson-lab.mit.edu">D.G. Anderson</a></span>
+	        <br><br>
+	        <em>Nature Biomedical Engineering</em> 2020 | <a href="data/pdf/a_retrievable_implant_for_the_long-term_encapsulation_and_survival_of_therapeutic_xenogeneic_cells.pdf">PDF</a>
+	      </p>
     </td>
   </tr>
 
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/nkcc.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/nkcc.png' alt="NKCC1 structure figure">
     </td>
     <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://www.nature.com/articles/s41586-019-1438-2">Structure and mechanism of the cation–chloride cotransporter NKCC1</a></papertitle><br>
-        <authors>T.A. Chew*, B.J. Orlando*, J. Zhang*, <a href="https://scholar.google.com/citations?user=cDwnueoAAAAJ&hl=en&oi=ao">N.R. Latorraca</a>, <me>A. Wang</me>, <a href="https://scholar.google.com/citations?user=_3pUc40AAAAJ&hl=en&oi=sra">S.A. Hollingsworth</a>, D.H. Chen, <a href="https://scholar.google.com/citations?user=GTmdNU0AAAAJ&hl=en&oi=ao">R.O. Dror</a>, M. Liao, L. Feng</authors>
-        <br><br>
-        <em>Nature</em> 2019 | <a href="data/pdf/structure_and_mechanism_of_the_cation–chloride_cotransporter_NKCC1.pdf">PDF</a>
-      </p>
+	      <p>
+	        <span class="paper-title"><a href="https://www.nature.com/articles/s41586-019-1438-2">Structure and mechanism of the cation-chloride cotransporter NKCC1</a></span><br>
+	        <span class="authors">T.A. Chew*, B.J. Orlando*, J. Zhang*, <a href="https://scholar.google.com/citations?user=cDwnueoAAAAJ&amp;hl=en&amp;oi=ao">N.R. Latorraca</a>, <span class="me">A. Wang</span>, <a href="https://scholar.google.com/citations?user=_3pUc40AAAAJ&amp;hl=en&amp;oi=sra">S.A. Hollingsworth</a>, D.H. Chen, <a href="https://scholar.google.com/citations?user=GTmdNU0AAAAJ&amp;hl=en&amp;oi=ao">R.O. Dror</a>, M. Liao, L. Feng</span>
+	        <br><br>
+	        <em>Nature</em> 2019 | <a href="data/pdf/structure_and_mechanism_of_the_cation–chloride_cotransporter_NKCC1.pdf">PDF</a>
+	      </p>
     </td>
   </tr>
 
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/protein_self-assembly.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/protein_self-assembly.png' alt="Protein-polymer self-assembly figure">
     </td>
     <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://pubs.acs.org/doi/10.1021/acs.biomac.9b00768">Predicting protein–polymer block copolymer self-assembly from protein properties</a></papertitle><br>
-        <authors><a href="https://scholar.google.com/citations?hl=en&user=qIBRkYMAAAAJ">A. Huang</a>, J.M. Paloni, <me>A. Wang</me>, A.C. Obermeyer, H.V. Sureka, H. Yao, <a href="https://scholar.google.com/citations?hl=en&user=S1nJ0CMAAAAJ">B.D. Olsen</a></authors>
-        <br><br>
-        <em>Biomacromolecules</em> 2019 | <a href="data/pdf/predicting_protein–polymer_block_copolymer_self-assembly_from_protein_properties.pdf">PDF</a>
-      </p>
+	      <p>
+	        <span class="paper-title"><a href="https://pubs.acs.org/doi/10.1021/acs.biomac.9b00768">Predicting protein-polymer block copolymer self-assembly from protein properties</a></span><br>
+	        <span class="authors"><a href="https://scholar.google.com/citations?hl=en&amp;user=qIBRkYMAAAAJ">A. Huang</a>, J.M. Paloni, <span class="me">A. Wang</span>, A.C. Obermeyer, H.V. Sureka, H. Yao, <a href="https://olsenlab.mit.edu">B.D. Olsen</a></span>
+	        <br><br>
+	        <em>Biomacromolecules</em> 2019 | <a href="data/pdf/predicting_protein–polymer_block_copolymer_self-assembly_from_protein_properties.pdf">PDF</a>
+	      </p>
     </td>
   </tr>
 
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/insulin_nps.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/insulin_nps.png' alt="Insulin-loaded nanoparticles figure">
     </td>
     <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://pubs.acs.org/doi/pdf/10.1021/acsami.6b16854">Design of insulin-loaded nanoparticles enabled by multistep control of nanoprecipitation and zinc chelation</a></papertitle><br>
-        <authors><a href="https://scholar.google.com/citations?user=H9kQLBEAAAAJ&hl=en&oi=ao">S. Chopra</a>, N. Bertrand, J. Lim, <me>A. Wang</me>, <a href="https://scholar.google.com/citations?user=nz4Nfw0AAAAJ&hl=en&oi=ao">O. Farokhzad</a>, <a href="https://scholar.google.com/citations?user=U6qwtCcAAAAJ&hl=en">R. Karnik</a></authors>
-        <br><br>
-        <em>ACS Applied Materials & Interfaces</em> 2017 | <a href="data/pdf/design_of_insulin-loaded_nanoparticles_enabled_by_multistep_control_of_nanoprecipitation_and_zinc_chelation.pdf">PDF</a><br>
-        <a href="https://patents.google.com/patent/US20180318230A1/en">Patent</a> Filed October 7, 2015.
+	      <p>
+	        <span class="paper-title"><a href="https://pubs.acs.org/doi/pdf/10.1021/acsami.6b16854">Design of insulin-loaded nanoparticles enabled by multistep control of nanoprecipitation and zinc chelation</a></span><br>
+	        <span class="authors"><a href="https://scholar.google.com/citations?user=H9kQLBEAAAAJ&amp;hl=en&amp;oi=ao">S. Chopra</a>, N. Bertrand, J. Lim, <span class="me">A. Wang</span>, <a href="https://scholar.google.com/citations?user=nz4Nfw0AAAAJ&amp;hl=en&amp;oi=ao">O. Farokhzad</a>, <a href="https://scholar.google.com/citations?user=U6qwtCcAAAAJ&amp;hl=en">R. Karnik</a></span>
+	        <br><br>
+	        <em>ACS Applied Materials &amp; Interfaces</em> 2017 | <a href="data/pdf/design_of_insulin-loaded_nanoparticles_enabled_by_multistep_control_of_nanoprecipitation_and_zinc_chelation.pdf">PDF</a><br>
+	        <a href="https://patents.google.com/patent/US20180318230A1/en">Patent</a> Filed October 7, 2015.
       </p>
     </td>
   </tr>
@@ -263,7 +269,7 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;width:100%;vertical-align:middle">
-      <heading>Teaching and Service</heading>
+      <div class="heading">Teaching and Service</div>
       <p>
         Teaching Assistant: Chemical Kinetics and Reaction Engineering, Spring 2020<br>
         Teaching Assistant: Chemical Kinetics and Reaction Engineering, Spring 2021
@@ -275,7 +281,7 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;width:100%;vertical-align:middle">
-      <heading>Workshops</heading>
+      <div class="heading">Workshops</div>
     </td>
   </tr>
 </tbody></table>
@@ -283,31 +289,15 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/therabdesign_architecture.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/therabdesign_architecture.png' alt="Therapeutic antibody design workshop figure">
     </td>
-    <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://iclr.cc/virtual/2025/34634">A guided design framework for the optimization of therapeutic-like antibodies</a></papertitle><br>
-        <authors><me>A. Wang</me>, Z. Sang, S.D. Stanton, J.L. Hofmann, [...], N.C. Frey, <a href="https://www.gene.com/scientists/our-scientists/andy-watkins"></a>A.M. Watkins</a>, <a href="https://www.gene.com/scientists/our-scientists/franziska-seeger">Franziska Seeger</a>F. Seeger</authors>
-        <br><br>
-        <em>Generative and Experimental Perspectives for Biomolecular Design, ICLR 2025</em> | <a href="data/pdf/TheraAbDesign_ICLR_GEM.pdf">PDF</a>
-      </p>
-    </td>
-  </tr>
-</tbody></table>
-
-<table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-  <tr>
-    <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/surfprop.png'>
-    </td>
-    <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://iclr.cc/virtual/2025/34634">SurfProp: A surface-based property prediction framework for antibody developability and screening</a></papertitle><br>
-        <authors>P. Rao, H. Isaacson, J.L. Hofmann, D. Davidson, <me>A. Wang</me>, A.M. Watkins, R. Bonneau, S. Izadi, J.H. Lee, N.C. Frey, F. Seeger</authors>
-        <br><br>
-        <em>GenBio Workshop, ICLR 2025</em> | <a href="data/pdf/TheraAbDesign_ICLR_GEM.pdf">PDF</a>
-      </p>
+	    <td style="padding:20px;width:75%;vertical-align:middle;">
+	      <p>
+	        <span class="paper-title"><a href="https://iclr.cc/virtual/2025/34634">A guided design framework for the optimization of therapeutic-like antibodies</a></span><br>
+	        <span class="authors"><span class="me">A. Wang</span>, Z. Sang, S.D. Stanton, J.L. Hofmann, [...], N.C. Frey, <a href="https://www.gene.com/scientists/our-scientists/andy-watkins">A.M. Watkins</a>, <a href="https://www.gene.com/scientists/our-scientists/franziska-seeger">F. Seeger</a></span>
+	        <br><br>
+	        <em>Generative and Experimental Perspectives for Biomolecular Design, ICLR 2025</em> | <a href="data/pdf/TheraAbDesign_ICLR_GEM.pdf">PDF</a>
+	      </p>
     </td>
   </tr>
 </tbody></table>
@@ -315,15 +305,31 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/AbIF.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/surfprop.png' alt="SurfProp workshop figure">
     </td>
-    <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://neurips.cc/virtual/2023/82141"> The Effects of Structural Conditioning on Antibody Inverse Folding</a></papertitle><br>
-        <authors>Z. Ma, D. Davidson, <me>A. Wang</me>, N. Frey, F. Seeger </authors>
-        <br><br>
-        <em>Women in ML Workshop, NeurIPS 2023</em>
-      </p>
+	    <td style="padding:20px;width:75%;vertical-align:middle;">
+	      <p>
+	        <span class="paper-title"><a href="https://iclr.cc/virtual/2025/34634">SurfProp: A surface-based property prediction framework for antibody developability and screening</a></span><br>
+	        <span class="authors">P. Rao, H. Isaacson, J.L. Hofmann, D. Davidson, <span class="me">A. Wang</span>, A.M. Watkins, R. Bonneau, S. Izadi, J.H. Lee, N.C. Frey, F. Seeger</span>
+	        <br><br>
+	        <em>GenBio Workshop, ICLR 2025</em> | <a href="data/pdf/SurfProp.pdf">PDF</a>
+	      </p>
+	    </td>
+	  </tr>
+</tbody></table>
+
+<table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
+      <img style="width:100%;max-width:200px;" src='data/images/AbIF.png' alt="Antibody inverse folding workshop figure">
+    </td>
+	    <td style="padding:20px;width:75%;vertical-align:middle;">
+	      <p>
+	        <span class="paper-title"><a href="https://neurips.cc/virtual/2023/82141">The Effects of Structural Conditioning on Antibody Inverse Folding</a></span><br>
+	        <span class="authors">Z. Ma, D. Davidson, <span class="me">A. Wang</span>, N. Frey, F. Seeger</span>
+	        <br><br>
+	        <em>Women in ML Workshop, NeurIPS 2023</em>
+	      </p>
     </td>
   </tr>
 </tbody></table>
@@ -331,15 +337,17 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-      <img style="width:100%;max-width:200px;" src='data/images/workshop_mlsb.png'>
+      <img style="width:100%;max-width:200px;" src='data/images/workshop_mlsb.png' alt="Physics-based protein property prediction workshop figure">
     </td>
-    <td style="padding:20px;width:75%;vertical-align:middle;">
-      <p>
-        <papertitle><a href="https://www.mlsb.io/papers_2022/Learning_from_physics_based_features_improves_protein_property_prediction.pdf">Learning from physics-based features improves protein property prediction</a></papertitle><br>
-        <authors><me>A. Wang</me>, <a href="https://www.alexluresearch.com">A.X. Lu</a>, <a href="https://avaamini.com">A.P. Amini</a>, <a href="https://yangkky.github.io">K.K. Yang</a></authors>
-        <br><br>
-        <em>Machine Learning in Structural Biology Workshop, NeurIPS 2022</em> | <a href="data/pdf/MLSB_Workshop_Submission.pdf">PDF</a> | <a href="https://neurips.cc/virtual/2022/59039">Poster</a>
-      </p>
+	    <td style="padding:20px;width:75%;vertical-align:middle;">
+	      <p>
+	        <span class="paper-title"><a href="https://www.mlsb.io/papers_2022/Learning_from_physics_based_features_improves_protein_property_prediction.pdf">Learning from physics-based features improves protein property prediction</a></span><br>
+	        <span class="authors"><span class="me">A. Wang</span>, <a href="https://www.alexluresearch.com">A.X. Lu</a>, <a href="https://avaamini.com">A.P. Amini</a>, <a href="https://yangkky.github.io">K.K. Yang</a></span>
+	        <br><br>
+	        <em>Machine Learning in Structural Biology Workshop, NeurIPS 2022</em><br>
+	        <span class="meta-note">Internship project at <a href="https://www.microsoft.com/en-us/research/theme/biomedical-ml/">Microsoft Research, BioML Group</a></span><br>
+	        <a href="data/pdf/MLSB_Workshop_Submission.pdf">PDF</a> | <a href="https://neurips.cc/virtual/2022/59039">Poster</a>
+	      </p>
     </td>
   </tr>
 </tbody></table>
@@ -347,7 +355,7 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;width:100%;vertical-align:middle">
-      <heading>Awards and Affiliations</heading>
+      <div class="heading">Awards and Affiliations</div>
     </td>
   </tr>
 </tbody></table>
@@ -371,15 +379,11 @@
 <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
     <td style="padding:20px;text-align:right;">
-      <font size="2">
+      <div class="footer-note">
         Webpage design courtesy of <a href="https://jonbarron.info">Jon Barron</a>.
-      </font>
+      </div>
     </td>
   </tr>
 </tbody></table>
-
-</td>
-</tr>
-</table>
 </body>
 </html>
